@@ -1,5 +1,7 @@
-package com.smoner.aop.nativeExample;
-
+package com.smoner.aop.proxy.nativeExample;
+/**
+ * 原生代码测试
+ */
 public class ForumServiceImpl implements ForumService {
 
 	@Override
