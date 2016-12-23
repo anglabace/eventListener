@@ -6,11 +6,11 @@ package com.smoner.aop.example.advice;
 public class NaiveWaiter implements Waiter {
     @Override
     public void greetTo(String name) {
-        System.out.print("greet to"+name+"...");
+        System.out.println("greet to"+name+"...");
     }
 
     @Override
     public void serveTo(String name) {
-        System.out.print("serve to "+name+"...");
+        System.out.println("serve to "+name+"...");
     }
 }
